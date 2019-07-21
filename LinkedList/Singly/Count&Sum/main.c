@@ -55,6 +55,19 @@ void count(struct Node *p)
     }
     printf("\nThe total no. of elements are : %d",counter);
 }
+
+void max(struct Node *p)
+{
+    p=start;
+    int Max=p->data;
+    while(p!=NULL)
+    {
+        if(p->data>Max)
+            Max=p->data;
+        p=p->next;
+    }
+    printf("\nThe maximum element in LL is : %d",Max);
+}
 int main()
 {
     int size,choice,pos;
@@ -64,7 +77,10 @@ int main()
     printf("\nThe elements of linked list are : ");
     struct Node *p=start;
     display(p);
+    p=start;
     count(p);
+    p=start;
     printf("\nThe sum of all elements are : %d",sum(p));
+    max(p);
 return 0;
 }
