@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563709384 source:c:\users\ani\desktop\c-programming\linkedlist\singly\checksorted\main.c
+	<stdio.h>
+	<stdlib.h>
+
