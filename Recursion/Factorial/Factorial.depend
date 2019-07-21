@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563546627 source:c:\users\ani\desktop\c-programming\recursion\factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+
