@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563881635 source:c:\users\ani\desktop\c-programming\trees\binarysearchtree\binarysearchtree\main.c
+	<stdio.h>
+	<stdlib.h>
+
